@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-image: url(RuangTidur.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+.lampu-containeres {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.lampudir {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.rewrite1 {
+   position: absolute;
+    top: 20px;
+    left: 22%;
+    transform: translateX(-50%);
+    font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-bottom: 3px solid gold;
+  font-family: 'Georgia', serif;
+}
+
+.rewrite2 {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-bottom: 3px solid gold;
+  font-family: 'Georgia', serif;
+}
+
+.rewrite3 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-bottom: 3px solid gold;
+  font-family: 'Georgia', serif;
+}
+
+.rewrite4 {
+    position: absolute;
+    top: 20px;
+    right: 3%;
+    transform: translateX(-50%);
+    font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-bottom: 3px solid gold;
+  font-family: 'Georgia', serif;
+}

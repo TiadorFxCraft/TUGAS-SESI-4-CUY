@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Ruang Tamu</title>
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <a href="index.html" class="astrap1">Ruang Makan</a>
+        <a href="RuanganKeluarga.html" class="astrap2">Ruang Keluarga</a>
+        <a href="RuangTidur.html" class="astrap3">Ruang Tidur</a>
+        <a href="RuangTamu.html" class="astrap4">Ruang Tamu</a>
+
+        <div class="lampu-container">
+            <!-- lampu1 -->
+        <div class="lampu">
+        <img src="Aseps/image/off.gif" alt="" class="lamp-image" id="lampuhas1">
+        <button onclick="saklar('on',1)" type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        lampu1
+        </button>
+        <button onclick="saklar('off',1)" type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        lampu2
+        </button>
+        </div>
+        <!-- lampu 2 -->
+        <div class="lampu">
+        <img src="Aseps/image/off.gif" alt="" class="lamp-image" id="lampuhas2">
+        <button onclick="saklar('on',2)" type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        lampu1
+        </button>
+        <button onclick="saklar('off',2)" type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        lampu2
+        </button>
+        </div>
+        </div>
+        <script src="saklar1.js"></script>
+    </body>
+</html>
